@@ -1,0 +1,11 @@
+age_bracket,id,ip,lat,lng,opted_into_marketing,user_agent
+26-40,-3148834791122434132,65.36.61.124,30.5052,-97.8203,False,Mozilla/5.0 (compatible; MSIE 6.0; Windows 95; Trident/5.0)
+41-55,-3848894597186266194,83.92.115.71,55.6759,12.5655,True,Mozilla/5.0 (Windows NT 10.0; mr-IN; rv:1.9.2.20) Gecko/2410-09-03 01:34:40 Firefox/3.6.2
+41-55,-8713847771854576431,170.137.189.66,41.8713,-87.6277,False,Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_10_0; rv:1.9.3.20) Gecko/8584-06-26 13:04:21 Firefox/3.8
+26-40,-6232651448886811909,58.149.11.110,37.5445,126.9837,True,Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.2 (KHTML, like Gecko) Chrome/35.0.852.0 Safari/534.2
+55+,-1286848726566041055,204.145.220.65,30.405,-91.1868,True,Mozilla/5.0 (Windows; U; Windows NT 5.0) AppleWebKit/531.15.6 (KHTML, like Gecko) Version/4.1 Safari/531.15.6
+41-55,5233357655540901816,88.19.187.71,39.437,-0.4655,True,Mozilla/5.0 (Windows CE) AppleWebKit/536.1 (KHTML, like Gecko) Chrome/47.0.894.0 Safari/536.1
+55+,-3634591343951894135,211.254.46.253,37.566,126.9784,True,Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 5.2; Trident/4.0)
+18-25,-2999007935055073754,19.35.126.91,42.2399,-83.1508,True,Opera/8.69.(X11; Linux x86_64; am-ET) Presto/2.9.167 Version/12.00
+26-40,-3597584915378852313,114.204.205.141,37.3236,126.8219,True,Opera/8.32.(X11; Linux i686; lv-LV) Presto/2.9.160 Version/11.00
+26-40,-284791630840686785,39.82.0.15,36.0649,120.3804,False,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.0; Trident/4.1)
