@@ -149,10 +149,10 @@ def run():
         )
 
     (parsed_msgs
-        | "WindowByMinute" >> beam.WindowInto(beam.window.FixedWindows(60))
-        | "CountPerMinute" >> beam.CombineGlobally(CountCombineFn()).without_defaults()
-        | "AddWindowTimestamp" >> beam.ParDo(GetTimestampFn())
-        | 'WriteAggToBQ' >> beam.io.WriteToBigQuery(
+        | "WindowByMinute" >> beam.WindowInto(beam.window.FixedWindows(60)) #Window 1 Minute
+        | "CountPerMinute" >> beam.CombineGlobally(CountCombineFn()).without_defaults() #Count Number of Message per Window
+        | "AddWindowTimestamp" >> beam.ParDo(GetTimestampFn()) 
+        | 'WriteAggToBQ' >> beam.io.WriteToBigQuery( #Write To BigQuery
             agg_table_name,
             schema=agg_table_schema,
             create_disposition=beam.io.BigQueryDisposition.CREATE_IF_NEEDED,
