@@ -11,6 +11,7 @@ from apache_beam.runners import DirectRunner
 
 data_complete=[]
 
+##Create Function
 def parse_json(element):
     data = json.loads(element)
     
@@ -45,7 +46,6 @@ def process(siteTraffic):
     df.to_csv('D:/Agra/Data-Engineer/GCP-DataEngineerLearningPath/Quest-DataProcessing/Quest-1/output.csv', index=False)
 
 def run():
-
     parser = argparse.ArgumentParser(description='JSON to CSV')
     parser.add_argument('--runner', required=True, help='Specify Apache Beam Runner')
 

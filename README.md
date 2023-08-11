@@ -20,7 +20,6 @@ Excersices is on the Quest file
 - Apache Beam - version 2.49.0
 - Apache Airflow - version 2.5.2
 - Python - version 3.11.4
-- Java
 - SQL 
 - Google Cloud Platform
 
