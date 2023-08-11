@@ -43,7 +43,7 @@ def process(siteTraffic):
                    'user_agent': str
         }
     )
-    df.to_csv('D:/Agra/Data-Engineer/GCP-DataEngineerLearningPath/Quest-DataProcessing/Quest-1/output.csv', index=False)
+    df.to_csv('/home/jupyter/GCP-DataEngineerLearningPath/Quest-DataProcessing/Quest-1/output.csv', index=False)
 
 def run():
     parser = argparse.ArgumentParser(description='JSON to CSV')
@@ -55,7 +55,7 @@ def run():
     options.view_as(StandardOptions).runner = opts.runner
 
     #Add static input and output strings
-    input = 'D:/Agra/Data-Engineer/GCP-DataEngineerLearningPath/event.json'
+    input = '/home/jupyter/Data-Engineer/GCP-DataEngineerLearningPath/events.json'
 
     p = beam.Pipeline(options=options)
 
