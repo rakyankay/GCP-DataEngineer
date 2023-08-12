@@ -10,7 +10,7 @@ export RUNNER=DataflowRunner
 export INPUT_PATH=${PIPELINE_FOLDER}/events.json
 export OUTPUT_PATH=${COLDLINE_BUCKET}/pipeline_output
 export TABLE_NAME=${PROJECT_ID}:logs.bytes_filtered
-python $BASE_DIR/Quest-DataProcessing/Quest-4-Branching-Pipeline/branching_pipeline.py \
+python Quest-DataProcessing/Quest-4-Branching-Pipeline/branching_pipeline.py \
 --project=${PROJECT_ID} \
 --region=${REGION} \
 --stagingLocation=${PIPELINE_FOLDER}/staging \

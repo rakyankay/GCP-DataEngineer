@@ -10,7 +10,7 @@ export PUBSUB_TOPIC=projects/${PROJECT_ID}/topics/my_topic
 export WINDOW_DURATION=60
 export AGGREGATE_TABLE_NAME=${PROJECT_ID}:logs.windowed_minute_traffic
 export RAW_TABLE_NAME=${PROJECT_ID}:logs.raw_streaming
-python $BASE_DIR/Quest-DataProcessing/Quest-3-Streaming-Pipeline/minute_traffic_pipeline.py \
+python Quest-DataProcessing/Quest-3-Streaming-Pipeline/minute_traffic_pipeline.py \
 --project=${PROJECT_ID} \
 --region=${REGION} \
 --staging_location=${PIPELINE_FOLDER}/staging \

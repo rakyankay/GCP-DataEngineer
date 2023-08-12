@@ -8,10 +8,7 @@ export PIPELINE_FOLDER=${BUCKET}
 export RUNNER=DataflowRunner
 export INPUT_PATH=${PIPELINE_FOLDER}/events.json
 export TABLE_NAME=${PROJECT_ID}:logs.user_traffic
-
-cd $BASE_DIR
-
-python $BASE_DIR/Quest-DataProcessing/Quest-2-Batch-Pipeline/user_traffic_pipeline.py \
+python Quest-DataProcessing/Quest-2-Batch-Pipeline/user_traffic_pipeline.py \
 --project=${PROJECT_ID} \
 --region=${REGION} \
 --staging_location=${PIPELINE_FOLDER}/staging \
