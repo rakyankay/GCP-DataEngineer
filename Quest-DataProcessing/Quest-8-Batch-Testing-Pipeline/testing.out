@@ -1,0 +1,9 @@
+test_compute_statistics (__main__.ComputeStatsTest) ... ok
+test_convert_temp_units (__main__.ConvertTempUnitsTest) ... ok
+test_convert_csv (__main__.ConvertToWeatherRecordTest) ... ok
+test_weather_stats_transform (__main__.WeatherStatsTransformTest) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 4.067s
+
+OK
